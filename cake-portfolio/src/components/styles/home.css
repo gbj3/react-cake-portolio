@@ -1,0 +1,69 @@
+:root {
+    --background-color: #ECF2F9;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Header {
+    background-image: url('../images/cake1.PNG');
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    color: var(--background-color);
+}
+
+.Header h1 {
+    font-size: 450%;
+}
+
+.Header h3 {
+    font-size: 125%;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+    margin-top: 3rem;
+}
+
+.About-Me {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0 4rem 0;
+    background-color: #ECF2F9;
+}
+  
+.About-Me img {
+    margin: 0 4rem 0 4rem;
+}
+
+.About-Me .about-text p {
+margin:  0 4rem 1rem 4rem;
+flex: 1;
+}
+
+.About-Me .about-text .external-links a {
+padding: 4rem 1.5rem 0 1.5rem;
+}
+
+@media (max-width: 750px) {
+    .About-Me {
+        flex-direction: column;
+    }
+    .About-Me > div:first-child {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .About-Me .about-text p {
+        margin: 1rem 2rem;
+    }
+}
+
+.Portfolio-Highlights {
+    padding: 4rem 0 4rem 0;
+    background-color: var(--background-color);
+}
+
+  
